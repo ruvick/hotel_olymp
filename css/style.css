@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Playfair+Display&display=swap");
 @font-face {
   font-family: "Lato";
   src: url("../fonts/Lato-Light.eot");
@@ -78,7 +80,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "";
+  font-family: "Lato";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -86,7 +88,7 @@ body {
 input,
 button,
 textarea {
-  font-family: ""; }
+  font-family: "Lato"; }
 
 input::-ms-clear {
   display: none; }
@@ -109,6 +111,7 @@ ul li {
   list-style: none; }
 
 img {
+  max-width: 100%;
   vertical-align: top; }
 
 h1,
@@ -121,13 +124,44 @@ h6 {
   font-size: inherit; }
 
 body {
-  color: #1a1818;
-  font-size: 14px;
-  font-weight: 400; }
+  font-size: 19px;
+  line-height: 120%;
+  font-weight: 400;
+  color: #fff; }
   body a {
-    color: #1a1818; }
+    font-family: "Lato";
+    line-height: 19.2px;
+    color: #fff; }
   body.lock {
     overflow: hidden; }
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 120%; }
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 120%; }
+
+h3 {
+  font-family: "Playfair Display";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 120%; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%; }
+
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%; }
 
 .wrapper {
   width: 100%;
@@ -148,7 +182,7 @@ body {
   padding: 35px 0; }
 
 .container {
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
   width: 100%; }
 
@@ -175,15 +209,15 @@ body {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 3px;
-  width: 164px;
-  height: 37px;
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 22px;
+  padding: 6px 8px;
+  min-width: 206px;
+  min-height: 40px;
+  font-family: "PTSans-Caption";
+  font-size: 18px;
+  line-height: 21.6px;
   color: #fff;
-  background: #0070bf;
-  border-radius: 35px; }
+  background: #A46A37;
+  border: 1px solid #fff; }
   .btn.fw {
     width: 100%; }
 
@@ -303,6 +337,20 @@ input[type=range] {
 textarea.input {
   resize: none;
   padding: 5px 10px; }
+
+::-webkit-input-placeholder {
+  color: #8584847a; }
+
+::-moz-placeholder {
+  color: #8584847a; }
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #8584847a; }
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #8584847a; }
 
 .number {
   max-width: 100px;

@@ -13,14 +13,14 @@
 	align-items: center;
 	text-align: center;
 	padding: 6px 8px;
-	min-width: 144px;
-	min-height: 36px;
-	font-family: 'Lato';
-	font-size: 12px;
-	font-weight: 400;
-	color: #000;
-	background: #FFE417;
-	border-radius: 5px;
+	min-width: 206px;
+	min-height: 40px;
+	font-family: "PTSans-Caption";
+	font-size: 18px;
+	line-height: 21.6px;
+	color: #fff;;
+	background: #A46A37;
+	border: 1px solid #fff;
 	&:hover{}
 	&.fw{width: 100%;}  
 }

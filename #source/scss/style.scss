@@ -5,6 +5,10 @@
 //<ШРИФТЫ>===============================================================================================
 
 //<Подключаем шрифты>=======================================================================================
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Playfair+Display&display=swap');
+
 @font-face { 
 	font-family: "Lato";
 	src: url("../fonts/Lato-Light.eot");
@@ -20,7 +24,7 @@
 	src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"),
 	url("../fonts/Lato-Regular.svg") format("svg");
 	font-weight: 400;
-	font-style: normal;
+	font-style: normal; 
 }
 
 @font-face {
@@ -65,14 +69,14 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontfamily: "";
+$fontfamily: "Lato";
 //</Шрифт по умолчанию>==========================================================================================
 
 //</ШРИФТЫ>=======================================================================================================
 
 //<ПЕРЕМЕННЫЕ>===========================================================================================================
 $minwidth: 320px;
-$mw: 1170;
+$mw: 1440;
 $md1: $mw + 12;
 $md2: 991.98;
 $md3: 767.98;
@@ -82,11 +86,14 @@ $md4: 479.98;
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null.scss";
 body {
-	color: #1a1818;
-	font-size: 14px;
+	font-size: 19px;
+	line-height: 22.8 / 19 *100%;
 	font-weight: 400;
+	color: #fff;
 	a {
-		color: #1a1818;
+		font-family: "Lato";
+		line-height: 19.2px;
+		color: #fff;
 	}
 	&.lock {
 		overflow: hidden;
@@ -105,23 +112,29 @@ body {
 //</АДАПТИВНЫЙ ШРИФТ>=================================================================================================================
 
 //<ЗАГОЛОВКИ>=================================================================================================================
-// h1 {
-// 	font-size: 35px;
-// 	font-weight: 500;
-// 	line-height: 52.8 / 40 *100%;
-// 	line-height: 38px;}
-// h2 {
-// 	font-size: 32px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
-// h3 {
-// 	font-size: 28px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
-// h4 {
-// 	font-size: 25px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
+h1 {
+	font-family: "Playfair Display";
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 52.8 / 44 *100%;}
+h2 {
+	font-family: "Playfair Display";
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 52.8 / 44 *100%;}
+h3 {
+	font-family: "Playfair Display";
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 45.6 / 38 *100%;}
+h4 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8 / 24 *100%;}
+h5 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6 / 18 *100%;}
 //<ЗАГОЛОВКИ>=================================================================================================================
 
 //<ОБОЛОЧКА>===========================================================================================================
