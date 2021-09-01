@@ -29,58 +29,46 @@
 
 		<div class="header__row d-flex">
 
-			<a href="#" class="header__logo logo-icon">
-				<p>
-					ВЛАДИСЛАВ
-					ПЕНЗИН
-				</p>
-				<span>практикующий психолог</span>
-			</a>
+			<a href="#" class="header__logo logo-icon"></a>
 
 			<div class="header__nav-block">
+
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list sibling-fade d-flex">
-							<li><a href="#" class="menu__link">Обо мне</a></li>
-							<li><a href="#" class="menu__link">Услуги</a></li>
-							<li><a href="#" class="menu__link">Вопрос ответ</a></li>
-							<li><a href="#" class="menu__link">Статьи и публикации</a></li>
+							<li><a href="#" class="menu__link">Номера</a></li>
+							<li><a href="#" class="menu__link">Ресторан</a></li>
+							<li><a href="#" class="menu__link">Наши услуги</a></li>
+							<li><a href="#" class="menu__link">Спецпредложения</a></li>
 							<li><a href="#" class="menu__link">Контакты</a></li>
-						</ul>
+						</ul> 
 					</nav>
 					<nav class="mob-menu">
 						<ul class="mob-menu__list">
-							<li><a href="#" class="menu__link">Обо мне</a></li>
-							<li><a href="#" class="menu__link">Услуги</a></li>
-							<li><a href="#" class="menu__link">Вопрос ответ</a></li>
-							<li><a href="#" class="menu__link">Статьи и публикации</a></li>
+							<li><a href="#" class="menu__link">Номера</a></li>
+							<li><a href="#" class="menu__link">Ресторан</a></li>
+							<li><a href="#" class="menu__link">Наши услуги</a></li>
+							<li><a href="#" class="menu__link">Спецпредложения</a></li>
 							<li><a href="#" class="menu__link">Контакты</a></li>
 						</ul>
 					</nav>
-					<div class="header__search search">
-						<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ) ?>">
-							<input type="text" placeholder="Поиск" class="search__input input"
-								value="<?php echo get_search_query() ?>" name="s" id="s">
-							<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>
-						</form>
-					</div>
-					<button class="mob-search"></button>
 				</div>
 
-				<div class="header__callback d-flex">
-					<a href="tel:84951700000">8 (495) 170-00-00</a>
-					<p>Звонить с 08:00 до 22:00</p>
-					<a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
-				</div>
-				<a href="tel:84951700000" class="mob-callback__phone"></a>
+				<a href="#" class="header__btn btn">Забронировать</a>
 
-				<a href="#" class="bascket-icon"><span class="bascket-icon__number bascet_counter">1</span></a>
+				<div class="header__lang-switch d-flex">
+					<button class="header__lang-switch-ru">Ru</button>
+					<span class="header__lang-switch-delimiter">/</span>
+					<button class="header__lang-switch-en">En</button>
+				</div>
+
 
 				<div class="menu__icon icon-menu">
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
+
 			</div>
 
 		</div>
@@ -92,48 +80,119 @@
 
 		<main class="page">
 			<section id="about" class="about">
+				<div class="about__nuar nuar_blk"></div>
 				<div class="container">
 
-					<div class="age_show">
-						Товары с ценой не выше <span id="price" class="price">100</span>$
+				</div>
+			</section>
+
+			<section id="greetings" class="greetings">
+				<div class="container">
+
+					<div class="greetings__text-block">
+						<h1 class="greetings__title title">Добро пожаловать в отель «Олимп»</h1>
+						<p>
+							Отель состоит из двух корпусов. Второй корпус построен и запущен в 2021 году. Общее количество номеров 56. Это современный и элегантный отель, 
+							ориентированный на деловых людей и туристов, обеспечивает комфортное проживание в роскошных номерах, оформленных в классическом стиле. Для гостей есть 
+							возможность посетить изысканный ресторан, а так же в распоряжении наших гостей бассейн и SPA зона. Изысканное сочетание классического комфорта - вот то, 
+							что привлекает гостей отеля.
+						</p>
 					</div>
-					<input type="range" id="age" value="100" min="100" max="1000" oninput="changePrice(this.value)"
-						onchange="changePrice(this.value)">
 
-					<!-- 				<form class="header__form" action="#">
-					<input type="text" name="name" placeholder="Имя" class="input">
-					<input type="email" name="email" placeholder="e-mail" class="input__phone">
-					<input type="tel" name="tel" placeholder="Телефон" class="input__phone">
-					<button type="submit" class="form__btn btn">Жду звонка</button>
-					<p>
-						Нажимая на кнопку "Позвоните мне" я даю свое
-						согласие на обработку персональных данных и
-						принимаю условия соглашения
-					</p>
-				</form> -->
-				</div>
-			</section>
+					<div class="greetings__icon-block d-flex">
 
-			<section id="about" class="about">
-				<div class="container">
+	<div class="advant__item advant-icon-01">
+		<h5>
+			Ухоженная охраняемая территория
+		</h5>
+	</div>
 
-				</div>
-			</section>
+	<div class="advant__item advant-icon-02">
+		<h5>
+			Отдых для всей самьи
+		</h5>
+	</div>
 
-			<section id="about" class="about">
-				<div class="container">
+	<div class="advant__item advant-icon-03">
+		<h5>
+			Собственный SPA комплекс
+		</h5>
+	</div>
 
-				</div>
-			</section>
+	<div class="advant__item advant-icon-04">
+		<h5>
+			Ресторан c уникальным меню
+		</h5>
+	</div>
 
-			<section id="about" class="about">
-				<div class="container">
+</div>
 
 				</div>
 			</section>
 
-			<section id="about" class="about">
+			<section id="stock" class="stock">
 				<div class="container">
+					<h2>Акции и спецпредложения</h2>
+
+					<div class="stock__row d-flex">
+						
+						<div class="stock__card">
+							<div class="stock__nuar"></div>
+							<h4>
+								Романтические <br>
+								выходные в Олимпе
+							</h4>
+						</div>		
+
+						<div class="stock__card">
+							<div class="stock__nuar"></div>
+							<h4>
+								Посещение бассейна <br>
+								при заказе сауны
+							</h4>
+						</div>		
+
+						<div class="stock__card"> 
+							<div class="stock__nuar"></div>
+							<h4>
+								Незабываемая <br>
+								свадебная церемония
+							</h4>
+						</div>		
+
+						<div class="stock__card">
+							<div class="stock__nuar"></div>
+							<h4>
+								Рыбалка <br>
+								гриль дом 
+							</h4>
+						</div>		
+
+					</div>
+
+				</div>
+			</section>
+
+			<section id="impressions" class="impressions">
+				<div class="container">
+
+					<div class="impressions__text-block">
+						<h2 class="greetings__title title">Незабываемое торжество в  ресторане «Олимп»</h2>
+						<p>
+							Только самая изысканная кухня, богатый выбор блюд и напитков.
+						</p>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="offers" class="offers">
+				<div class="container">
+					<h2 class="offers__title title">Предложения для наших клиентов</h2>
+
+					<div class="offers__row d-flex">
+						
+					</div>
 
 				</div>
 			</section>
