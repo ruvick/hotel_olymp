@@ -1403,8 +1403,8 @@ body.ie .ibg img {
 
 .card-action__img {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 57%;
-  flex: 0 1 57%;
+  -ms-flex: 0 1 48.96%;
+  flex: 0 1 48.96%;
   height: 330px;
   overflow: hidden;
   margin-right: 99px; }
@@ -1431,11 +1431,6 @@ body.ie .ibg img {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 30.7%;
   flex: 0 1 30.7%; }
-  .card-action__descp p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.6px;
-    color: #161615; }
 
 .card-action__title {
   font-size: 36px;
@@ -1445,6 +1440,26 @@ body.ie .ibg img {
   -webkit-box-align: start !important;
   -ms-flex-align: start !important;
   align-items: flex-start !important; }
+
+.card-action__paragrafy {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #161615; }
+
+.card-action__price {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #C18B52; }
+  .card-action__price span {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #161615;
+    margin-left: 11px; }
 
 .card-action__btn {
   font-size: 20px; }
@@ -1458,6 +1473,8 @@ body.ie .ibg img {
   padding-top: 35px; }
 
 .recurring h1 {
+  font-size: 36px;
+  color: #C18B52;
   margin-bottom: 47px; }
 
 .about {

@@ -6,7 +6,7 @@
 	background-image: url('../img/stock-bg.jpg');
 }
  
-.stock-bg__text-block {
+.stock-bg__text-block { 
 	opacity: 0.9;
 }
 
@@ -54,7 +54,7 @@
 	}
 	// .card-action__img
 	&__img {
-		flex: 0 1 57%;
+		flex: 0 1 48.96%;
 		height: 330px;
 		overflow: hidden;
 		margin-right: 99px;
@@ -71,12 +71,6 @@
     justify-content: space-between;
     align-items: flex-start;
 		flex: 0 1 30.7%;
-		p {
-			font-size: 18px;
-			font-weight: 400;
-			line-height: 21.6px;
-			color: #161615;
-		}
 	}
 	// .card-action__title
 	&__title {
@@ -85,6 +79,27 @@
 		text-align: left !important;
 		color: #C18B52;
 		align-items: flex-start !important;
+	}
+	&__paragrafy {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 21.6px;
+		color: #161615;
+		}
+	&__price {
+		font-family: "Playfair Display";
+		font-size: 36px;
+		line-height: 43.2px;
+		color: #C18B52;
+		span {
+			display: inline-block;
+			font-family: "Lato";
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 21.6px;
+			color: #161615;
+			margin-left: 11px;
+		}
 	}
 	// .card-action__btn
 	&__btn {
@@ -97,4 +112,8 @@
     margin-top: 33px;
     background: #C18B52 !important;
 }
+
+
 //====================================================================================================
+// Номера
+
