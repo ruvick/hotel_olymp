@@ -218,18 +218,29 @@ h5 {
   margin-top: -80px;
 	// .greetings__text-block
 	&__text-block {
-		padding: 26px 116px 45px 116px;
-		background: #C18B52;
 		margin-bottom: 70px;
 	}
 	// .greetings__title
 	&__title {
 		margin-bottom: 37px;
 	}
-	p {
+}
+
+.text-block {
+	position: relative;
+	padding: 26px 116px 45px 116px;
+	background: #C18B52;
+	overflow: hidden;
+	&__logo {
+		position: absolute;
+		top: 10px;
+    left: 25px;
+	}
+		p {
 		text-align: center;
 	}
 }
+
 .title {
 	position: relative;
   text-align: center;
@@ -241,7 +252,7 @@ h5 {
 		float: left;
 		width: 299.07px;
 		height: 1px;
-		margin-top: 31px;
+		margin-top: 30px;
 		background: #fff;
 	}
 }
@@ -299,16 +310,19 @@ h5 {
 	margin-bottom: 39px;
 }
 
-.stock__row {
+.card-img__row {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.stock__card {
+.stock__card-img {
+	flex: 0 1 49%;
+}
+
+.card-img {
 	position: relative;
 	display: flex;
 	align-items: flex-end;
-	flex: 0 1 49%;
 	height: 330px;
 	padding: 28px 42px;
 	overflow: hidden;
@@ -321,20 +335,20 @@ h5 {
 	}
 }
 
-.stock__card:nth-child(1) {
+.stock__card-img:nth-child(1) {
 	background-image: url('../img/stock/01.jpg');
 }
-.stock__card:nth-child(2) {
+.stock__card-img:nth-child(2) {
 	background-image: url('../img/stock/02.jpg');
 }
-.stock__card:nth-child(3) {
+.stock__card-img:nth-child(3) {
 	background-image: url('../img/stock/03.jpg');
 }
-.stock__card:nth-child(4) {
+.stock__card-img:nth-child(4) {
 	background-image: url('../img/stock/04.jpg');
 }
 
-.stock__nuar {
+.card-img__nuar {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -353,6 +367,20 @@ h5 {
 	background-position: 0 0;
 	background-image: url('../img/impressions-bg.jpg');
 }
+
+.impressions__text-block {
+	position: relative;
+	opacity: 0.9;
+}
+
+.impressions__text-block .text-block__logo {
+	left: inherit;
+	right: -10.5%;
+}
+
+.impressions__title {
+	margin-bottom: 25px;
+}
 //====================================================================================================================================================
 
 .offers {
@@ -368,6 +396,104 @@ h5 {
 	margin-top: 35px;
   background: #C18B52;
 }
+
+.offers__card-img {
+	flex: 0 1 32.9%;
+	margin-bottom: 12px;
+}
+
+.offers__card-img:nth-child(4) {
+	flex: 0 1 66.5%;
+}
+
+.offers__card-img:nth-child(1) {
+	background-image: url('../img/offers/01.jpg');
+}
+.offers__card-img:nth-child(2) {
+	background-image: url('../img/offers/02.jpg');
+}
+.offers__card-img:nth-child(3) {
+	background-image: url('../img/offers/03.jpg');
+}
+.offers__card-img:nth-child(4) {
+	background-image: url('../img/offers/04.jpg');
+}
+.offers__card-img:nth-child(5) {
+	background-image: url('../img/offers/05.jpg');
+}
+//====================================================================================================================================================
+
+.contacts-bg {
+	padding: 115px 0 142px 0;
+	background-position: 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../img/contacts-bg.jpg');
+}
+
+.contacts-bg {
+	// .contacts-bg__text-block
+	&__text-block {
+		padding: 35px 80px 44px 80px;
+		opacity: 0.9;
+	}
+	// .contacts-bg__row
+	&__row {
+    position: relative;
+   	z-index: 50;
+		justify-content: space-between;
+	}
+	// .contacts-bg__col
+	&__col {
+		text-align: center;
+	}
+	// .contacts-bg__title
+	&__title {
+		margin-bottom: 20px;
+	}
+	// .contacts-bg__tel
+	&__tel {
+		font-family: "Lato";
+		font-weight: 700;
+		font-size: 24px;
+	}
+}
+
+.contacts-bg__title:before {
+    content: '';
+    float: left;
+    width: 105px;
+    height: 1px;
+    margin-top: 18px;
+    background: #fff;
+}
+
+.text-block {
+	// .text-block__logo
+	&__logo {
+
+	}
+}
+//====================================================================================================================================================
+
+.index-map {
+	padding: 53px 0 70px 0;
+}
+
+.index-map__map {
+	height: 403px;
+	border: 1px solid #c18b52;
+	overflow: hidden;
+}
+
+.map {
+	width: 100%;
+}
+
+.ymaps-2-1-79-map-copyrights-promo {
+	display: none;
+}
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
 //<Адаптив>===========================================================================================================================================

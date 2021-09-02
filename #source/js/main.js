@@ -3,4 +3,5 @@
 //@prepros-append jquery.inputmask.bundle.min.js
 //@prepros-append jquery-script.js
 //@prepros-append forms.js
+//@prepros-append map.js
 //@prepros-append jq-end.js     
