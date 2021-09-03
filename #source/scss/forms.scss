@@ -16,10 +16,10 @@
 	min-width: 206px;
 	min-height: 40px;
 	font-family: "PTSans-Caption";
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 21.6px;
 	color: #fff;;
-	background: #A46A37;
+	background: #C18B52;
 	border: 1px solid #fff;
 	&:hover{}
 	&.fw{width: 100%;}  
@@ -100,12 +100,14 @@
 input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 input[type=range]{cursor: pointer;}
 .input, .input__phone{
-	// border: 1px solid #000;
-	border-radius: 25px;
 	width: 100%;
 	display: flex;
-	height: 37px;
-	padding: 0px 17px;
+	height: 27px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.6px;
+	padding: 0px 17px 0 0;
+	border-bottom: 1px solid #C18B52;
 	&.focus{}
 	&.err{}
 }
@@ -114,10 +116,10 @@ textarea.input{
 	padding: 5px 10px;
 }
 // Стилизация placeholder 
-::-webkit-input-placeholder {color: #8584847a;}
-::-moz-placeholder          {color: #8584847a;}/* Firefox 19+ */
-:-moz-placeholder           {color: #8584847a;}/* Firefox 18- */
-:-ms-input-placeholder      {color: #8584847a;}
+::-webkit-input-placeholder {color: #161615;}
+::-moz-placeholder          {color: #161615;}/* Firefox 19+ */
+:-moz-placeholder           {color: #161615;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #161615;}
 //</INPUT>====================================================================================================
 
 //<INPUT (+ -)>====================================================================================================
@@ -149,7 +151,7 @@ textarea.input{
 		left: 0;
 		top: 0;
 		width: 18px;height: 18px;
-		border: 1px solid #a3a3a3;
+		border: 1px solid #C18B52;
 		position: absolute;
 	}
 	&.active{

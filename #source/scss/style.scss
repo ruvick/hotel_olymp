@@ -572,6 +572,75 @@ h5 {
 .services__card-img:nth-child(6) {
 	background-image: url('../img/services/06.jpg');
 }
+//====================================================================================================================================================
+// Контакты
+.contacts {
+	// .contacts__row
+	&__row {
+		max-width: 1240px;
+		width: 100%;
+		justify-content: space-between;
+	}
+	// .contacts__col
+	&__col {
+		ul li {
+			font-size: 18px;
+			line-height: 21.6px;
+			color: #161615;
+			&:nth-child(1) {
+				margin-bottom: 21px;
+			}
+			&:nth-child(3) {
+				margin-bottom: 21px;
+			}
+			&:nth-child(5) {
+				margin-bottom: 21px;
+			}
+			a {
+				color: #161615;
+			}
+		}
+		h2 {
+			font-size: 36px;
+			color: #C18B52;
+			margin-bottom: 33px;
+		}
+	}
+	// .contacts__form
+	&__form {
+		display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 433px;
+    width: 100%;
+	}
+	&__input {
+		margin-bottom: 28px;
+	}
+	&__input-phone {
+		margin-bottom: 19px;
+	}
+	// .contacts__form-check
+	&__form-check {
+		margin-bottom: 30px;
+		p {
+			font-size: 13px;
+			line-height: 15.6px;
+			margin-top: 1.5px;
+		}
+	}
+	// .contacts__btn
+	&__btn {
+
+	}
+}
+
+.input {
+	// .input__phone
+	&__phone {}
+}
+
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
 //<Адаптив>===========================================================================================================================================
