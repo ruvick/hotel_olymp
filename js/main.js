@@ -379,16 +379,16 @@ if (document.body.clientWidth > 1024) {
 
 
 // // Slider на главной
-// $('.info-sl__slider').slick({
-// 	arrows: false,
-// 	dots: true,
-// 	infinite: true,
-// 	speed: 1000,
-// 	slidesToShow: 1,
-// 	autoplay: true,
-// 	autoplaySpeed: 1800,
-// 	adaptiveHeight: true
-// });
+$('.slider-about').slick({
+	arrows: false,
+	dots: true,
+	infinite: true,
+	speed: 2000,
+	slidesToShow: 1,
+	autoplay: true,
+	autoplaySpeed: 1800,
+	adaptiveHeight: true
+});
 
 
 // // Slider Номер

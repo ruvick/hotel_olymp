@@ -1592,7 +1592,14 @@ body.ie .ibg img {
   color: #C18B52;
   margin-bottom: 47px; }
 
-.about {
+.about__nuar {
+  height: 9%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#757474), color-stop(90deg), color-stop(0.82%, rgba(120, 119, 119, 0.98)), color-stop(15%, rgba(168, 167, 167, 0.63)), color-stop(28.88%, rgba(206, 205, 205, 0.35)), color-stop(42.22%, rgba(233, 232, 232, 0.16)), color-stop(54.79%, rgba(249, 249, 249, 0.04)), color-stop(65.77%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%);
+  background: -o-linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%);
+  background: linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%); }
+
+.slider-about__item {
   position: relative;
   height: 1000px;
   background-position: 0 0;
@@ -1600,12 +1607,44 @@ body.ie .ibg img {
   background-size: cover;
   background-image: url("../img/about-bg.jpg"); }
 
-.about__nuar {
-  height: 9%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#757474), color-stop(90deg), color-stop(0.82%, rgba(120, 119, 119, 0.98)), color-stop(15%, rgba(168, 167, 167, 0.63)), color-stop(28.88%, rgba(206, 205, 205, 0.35)), color-stop(42.22%, rgba(233, 232, 232, 0.16)), color-stop(54.79%, rgba(249, 249, 249, 0.04)), color-stop(65.77%, rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%);
-  background: -o-linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%);
-  background: linear-gradient(#757474 0%, 90deg, rgba(120, 119, 119, 0.98) 0.82%, rgba(168, 167, 167, 0.63) 15%, rgba(206, 205, 205, 0.35) 28.88%, rgba(233, 232, 232, 0.16) 42.22%, rgba(249, 249, 249, 0.04) 54.79%, rgba(255, 255, 255, 0) 65.77%); }
+.slider-about .slick-dots {
+  position: absolute;
+  top: 31%;
+  right: 2%;
+  z-index: 50000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.slider-about .slick-dots li {
+  margin-bottom: 47px; }
+  .slider-about .slick-dots li:last-child {
+    margin-bottom: 0; }
+
+.slider-about .slick-dots li button {
+  font-size: 0;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #C18B52;
+  border: 1px solid #fff; }
+
+.slider-about .slick-dots li.slick-active button {
+  background: #fff;
+  border: 1px solid #C18B52; }
+
+.slider-about ul li:before {
+  display: none !important; }
 
 .greetings {
   position: relative;
