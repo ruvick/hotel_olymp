@@ -1946,6 +1946,35 @@ body.ie .ibg img {
     line-height: 15.6px;
     margin-top: 1.5px; }
 
+.restaurant {
+  background-image: url("../img/restaurant-bg.jpg"); }
+
+.restaurant__text-block {
+  position: relative;
+  padding: 26px 116px 45px 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.9; }
+
+.restaurant__btn {
+  background: #a46a37;
+  border: 1px solid #fff;
+  margin-top: 20px; }
+
+.restaurant-specific {
+  padding-top: 60px; }
+
 @media (max-width: 1100px) {
   .container {
     padding: 0 10px; } }

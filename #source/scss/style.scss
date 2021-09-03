@@ -640,7 +640,31 @@ h5 {
 	// .input__phone
 	&__phone {}
 }
+//====================================================================================================================================================
+// Контакты
+.restaurant {
+	background-image: url('../img/restaurant-bg.jpg');
+}
 
+.restaurant__text-block {
+    position: relative;
+    padding: 26px 116px 45px 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.restaurant__btn {
+	background: #a46a37;
+	border: 1px solid #fff;
+	margin-top: 20px;
+}
+
+.restaurant-specific {
+	padding-top: 60px;
+}
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
