@@ -33,7 +33,7 @@
 			height: 15px;
 			border-radius: 50%;
 			background: #A46A37;
-			margin-right: 16px;
+			margin-right: 16px; 
 		}
 	}
 	p {
@@ -93,5 +93,39 @@
 	background-position: 0 0;
    background-repeat: no-repeat;
 	margin-right: 20px;
+}
+
+// Слайдер
+.slider-room .slick-dots {
+	display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  position: relative;
+  z-index: 50000;
+}
+
+.slider-room .slick-dots li {
+	margin-right: 47px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.slider-room .slick-dots li button {
+	font-size: 0;
+	flex: 0 0 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #C18B52;
+	border: 1px solid #fff;
+}
+
+.slider-room .slick-dots li.slick-active button {
+	background: #fff;
+	border: 1px solid #C18B52;
+}
+
+.slider-room ul li:before {
+	display: none !important;
 }
 //====================================================================================================

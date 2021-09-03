@@ -62,6 +62,19 @@ if (document.body.clientWidth > 1024) {
 // });
 
 
+// // Slider Номер
+$('.slider-room').slick({
+	arrows: false,
+	dots: true,
+	infinite: true,
+	speed: 2000,
+	slidesToShow: 1,
+	autoplay: true,
+	autoplaySpeed: 1800,
+	adaptiveHeight: true
+});
+
+
 // // Slider вертикальный
 // $('.sidebar-slider').slick({
 // 	arrows: true,
