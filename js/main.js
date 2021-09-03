@@ -1514,8 +1514,8 @@ ymaps.ready(init);
 function init() {
 
     var myMap = new ymaps.Map("map", {
-        center: [51.730846, 36.193015],
-        zoom: 12.3,
+        center: [51.651634, 35.585305],
+        zoom: 17,
         // Выключаем все управление картой
         controls: []
 
@@ -1524,7 +1524,7 @@ function init() {
 
     var myGeoObjects = [];
 
-    myGeoObjects[0] = new ymaps.Placemark([51.730846, 36.193015], {
+    myGeoObjects[0] = new ymaps.Placemark([51.651634, 35.585305], {
         // Свойства. 
         // hintContent: '<div class="map-hint">Авто профи, Курск, ул.Комарова, 16</div>',
         balloonContent: '<div class="map-hint">Авто профи, Курск, ул.Комарова, 16</div>',
