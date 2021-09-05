@@ -88,6 +88,35 @@
   .header__lang-switch button {
     font-size: 14px;
     line-height: 1;}
+  .footer__container {
+    min-height: 0;
+    padding: 15px 10px !important;}
+  .footer__logo {
+    width: 90px;
+    flex: 0 0 35px !important;
+    height: 77px;
+    margin-bottom: 15px;}
+  .footer__logo:before {
+    height: 100%;}
+  .footer__menu {
+    margin-bottom: 15px;
+    font-size: 14px;}
+  .footer__line {
+    margin-bottom: 15px;}
+  .soc-block-icon {
+    width: 130px;}
+	.soc-icon-1::before {
+    width: 13px;
+    height: 13px;}
+  .soc-icon-2::before {
+    width: 23px;
+    height: 14px;}
+  .soc-icon-3::before {
+    width: 16px;
+    height: 14px;}
+  .soc-icon-4::before {
+    width: 14px;
+    height: 14px;}
 }
 
 @media (max-width: 700px) {
@@ -100,27 +129,29 @@
 	}
 
 @media (max-width: 515px) {
-	.header__callback {
-    display: none; }
-	.mob-callback__phone {
-    display: flex; 
-		margin-right: 25px;
-	}
+	.footer__menu {
+    margin-bottom: 10px;}
+	.footer__line {
+    max-width: 200px;}
+  .soc-block-icon {
+    width: 110px;}
 }
 
 @media (max-width: 414px) {
 	.logo-icon {
     flex: 0 0 80px;
     height: 30px;}
-  .header__btn {
+ .header__btn {
     margin-right: 15px;}
-  .header__lang-switch {
+ .header__lang-switch {
     margin-right: 15px;}
-  .header__btn {
+ .header__btn {
    min-width: 100px;
    font-size: 12px;
    min-height: 20px;
    padding: 0;}
+ .footer__line {
+    max-width: 160px;}
 }
 
 @media (max-width: 340px) {

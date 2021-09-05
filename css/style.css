@@ -1193,6 +1193,9 @@ body.ie .ibg img {
     -ms-flex-align: center;
     align-items: center; }
   .footer__menu {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     margin-bottom: 37px; }
 
 .footer__logo {
@@ -2091,7 +2094,38 @@ body.ie .ibg img {
     margin-right: 25px; }
   .header__lang-switch button {
     font-size: 14px;
-    line-height: 1; } }
+    line-height: 1; }
+  .footer__container {
+    min-height: 0;
+    padding: 15px 10px !important; }
+  .footer__logo {
+    width: 90px;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 35px !important;
+    flex: 0 0 35px !important;
+    height: 77px;
+    margin-bottom: 15px; }
+  .footer__logo:before {
+    height: 100%; }
+  .footer__menu {
+    margin-bottom: 15px;
+    font-size: 14px; }
+  .footer__line {
+    margin-bottom: 15px; }
+  .soc-block-icon {
+    width: 130px; }
+  .soc-icon-1::before {
+    width: 13px;
+    height: 13px; }
+  .soc-icon-2::before {
+    width: 23px;
+    height: 14px; }
+  .soc-icon-3::before {
+    width: 16px;
+    height: 14px; }
+  .soc-icon-4::before {
+    width: 14px;
+    height: 14px; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2102,13 +2136,12 @@ body.ie .ibg img {
     transition: right 0.8s; } }
 
 @media (max-width: 515px) {
-  .header__callback {
-    display: none; }
-  .mob-callback__phone {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 25px; } }
+  .footer__menu {
+    margin-bottom: 10px; }
+  .footer__line {
+    max-width: 200px; }
+  .soc-block-icon {
+    width: 110px; } }
 
 @media (max-width: 414px) {
   .logo-icon {
@@ -2124,4 +2157,6 @@ body.ie .ibg img {
     min-width: 100px;
     font-size: 12px;
     min-height: 20px;
-    padding: 0; } }
+    padding: 0; }
+  .footer__line {
+    max-width: 160px; } }
