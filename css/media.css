@@ -1,0 +1,563 @@
+@media (max-width: 1700px) {
+  .header__container {
+    max-width: inherit;
+    padding: 0 10px;
+    margin-right: 0; } }
+
+@media (max-width: 1450px) {
+  .container {
+    padding: 0 10px; }
+  .card-action-sec {
+    padding-bottom: 55px; }
+  .services-card-sec {
+    padding-bottom: 30px; }
+  .room {
+    padding-bottom: 30px; }
+  .restaurant-specific {
+    padding: 35px 0; } }
+
+@media (max-width: 1300px) {
+  .header__nav-block {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .header__menu {
+    margin-right: 25px; }
+  .header__btn {
+    margin-right: 20px; } }
+
+@media (max-width: 1280px) {
+  .slider-about__item {
+    height: 600px; }
+  .advant__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 30%;
+    flex: 0 1 30%;
+    text-align: center; }
+  .offers {
+    padding: 35px 0 50px 0; } }
+
+@media (max-width: 1200px) {
+  .menu__list li::after {
+    margin: 0 15px; }
+  .header__btn {
+    min-width: 160px;
+    font-size: 18px; }
+  .slider-room__img {
+    height: auto; } }
+
+@media (max-width: 1100px) {
+  .menu a {
+    font-size: 14px; }
+  .menu__list li::after {
+    margin: 0 10px; }
+  .card-action__img {
+    margin-right: 65px; } }
+
+@media (max-width: 1024px) {
+  .header__menu {
+    margin-right: 20px; }
+  .header__btn {
+    min-width: 140px;
+    font-size: 16px;
+    min-height: 35px; }
+  .slider-about__item {
+    height: 450px; }
+  .slider-about .slick-dots {
+    top: 10%; }
+  .advant__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 23%;
+    flex: 0 1 23%; }
+  .offers__card-img {
+    margin-bottom: 8px; }
+  .contacts-bg__text-block {
+    padding: 35px; }
+  .card-action__item {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .card-action__img {
+    height: 230px;
+    margin-right: 15px; }
+  .card-action__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 45%;
+    flex: 0 1 45%; }
+  .card-action__title:before {
+    margin-top: 33px; }
+  .card-action__item {
+    margin-bottom: 25px; }
+  .card-action__title {
+    font-size: 28px;
+    line-height: 30px; }
+  .card-action__title:before {
+    margin-top: 10px; }
+  .card-action__paragrafy {
+    font-size: 16px;
+    line-height: 18px; } }
+
+@media (max-width: 960px) {
+  .menu__list {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .menu__list li {
+    margin-left: 15px; }
+  .menu__list li:first-child {
+    margin-left: 0; }
+  .menu__list li::after {
+    display: none; } }
+
+@media (max-width: 860px) {
+  .advant__item h5 {
+    font-size: 16px; }
+  .contacts-bg__title {
+    font-size: 33px; }
+  .card-action__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%; }
+  .contacts__form {
+    max-width: 100%; }
+  .contacts__col {
+    margin-right: 10px; }
+  .contacts__col:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 5px 0;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+  .logo-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+    height: 35px; }
+  .logo-icon:before {
+    background-size: 100%; }
+  .icon-menu {
+    display: block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20px;
+    flex: 0 0 20px;
+    height: 14px; }
+  .menu__body {
+    display: none; }
+  .icon-menu span {
+    top: 6px; }
+  .icon-menu.active span:first-child {
+    top: 7px; }
+  .icon-menu.active span:last-child {
+    bottom: 5px; }
+  .header__btn {
+    min-width: 120px;
+    font-size: 14px;
+    min-height: 30px;
+    padding: 3px; }
+  .header__lang-switch {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    margin-right: 25px; }
+  .header__lang-switch button {
+    font-size: 14px;
+    line-height: 1; }
+  .footer__container {
+    min-height: 0;
+    padding: 15px 10px !important; }
+  .footer__logo {
+    width: 90px;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 35px !important;
+    flex: 0 0 35px !important;
+    height: 77px;
+    margin-bottom: 15px; }
+  .footer__logo:before {
+    height: 100%; }
+  .footer__menu {
+    margin-bottom: 15px;
+    font-size: 14px; }
+  .footer__line {
+    margin-bottom: 15px; }
+  .soc-block-icon {
+    width: 130px; }
+  .soc-icon-1::before {
+    width: 13px;
+    height: 13px; }
+  .soc-icon-2::before {
+    width: 23px;
+    height: 14px; }
+  .soc-icon-3::before {
+    width: 16px;
+    height: 14px; }
+  .soc-icon-4::before {
+    width: 14px;
+    height: 14px; }
+  .slider-about__item {
+    height: 300px; }
+  .page {
+    padding: 45px 0 25px 0; }
+  .slider-about .slick-dots {
+    top: 10%; }
+  .slider-about .slick-dots li {
+    margin-bottom: 10px; }
+  .greetings {
+    padding-bottom: 35px; }
+  .text-block {
+    padding: 25px; }
+  .title {
+    font-size: 26px;
+    margin-bottom: 10px; }
+  .title:before {
+    margin-top: 10px; }
+  .text-block p {
+    font-size: 14px;
+    line-height: 1.2; }
+  .advant__item:before {
+    width: 60px;
+    height: 50px;
+    margin-bottom: 10px; }
+  .advant-icon-01:before {
+    width: 75px; }
+  .advant__item h5 {
+    font-size: 12px; }
+  .greetings__text-block {
+    margin-bottom: 25px; }
+  .stock {
+    padding: 25px 0 20px 0; }
+  .stock h2 {
+    margin-bottom: 25px;
+    font-size: 24px; }
+  .card-img {
+    height: 200px;
+    padding: 10px 20px;
+    margin-bottom: 15px; }
+  .card-img h4 {
+    z-index: 5;
+    font-size: 18px;
+    line-height: 1; }
+  .impressions {
+    padding: 35px 0; }
+  .offers__card-img {
+    margin-bottom: 5px !important; }
+  .offers {
+    padding: 25px 0; }
+  .offers__title.title:before {
+    margin-top: 10px; }
+  .offers__title {
+    margin-bottom: 20px !important; }
+  .contacts-bg {
+    padding: 35px 0; }
+  .contacts-bg__tel {
+    font-size: 16px; }
+  .index-map {
+    padding: 25px 0 0 0; }
+  .stock-bg {
+    padding: 50px 0; }
+  .recurring {
+    padding-top: 10px; }
+  .card-action-sec {
+    padding-bottom: 25px; }
+  #breadcrumbs {
+    margin-bottom: 10px; }
+  .card-action__item {
+    margin-bottom: 20px; }
+  .card-action__title {
+    font-size: 22px !important;
+    line-height: 23px; }
+  .card-action__paragrafy {
+    font-size: 14px;
+    line-height: 16px; }
+  .card-action__btn {
+    font-size: 18px;
+    min-width: 150px;
+    min-height: 30px;
+    padding: 3px; }
+  .card-action__img {
+    height: auto; }
+  .card-action__price {
+    font-size: 20px; }
+  .recurring h1 {
+    font-size: 26px;
+    margin-bottom: 15px; }
+  .services__card-img {
+    height: 200px;
+    padding: 10px 20px;
+    margin-bottom: 15px; }
+  .services__card-img h4 {
+    font-size: 18px;
+    line-height: 1; }
+  .contacts__col h2 {
+    font-size: 26px;
+    margin-bottom: 15px; }
+  .contacts__col ul li {
+    font-size: 14px;
+    line-height: 18px; }
+  .contacts__col ul li:nth-child(1) {
+    margin-bottom: 10px; }
+  .contacts__col ul li:nth-child(3) {
+    margin-bottom: 10px; }
+  .contacts__col ul li:nth-child(5) {
+    margin-bottom: 10px; }
+  .contacts__input {
+    margin-bottom: 10px; }
+  .input, .input__phone {
+    height: 20px;
+    font-size: 14px; }
+  .contacts__form-check {
+    margin-bottom: 10px; }
+  .contacts__btn {
+    padding: 3px;
+    min-width: 160px;
+    min-height: 30px;
+    font-size: 18px; }
+  .slider-room {
+    margin-bottom: 25px; }
+  .room__specific-item-icon_01:before {
+    width: 60px;
+    height: 60px; }
+  .room__specific-item-icon_02:before {
+    width: 70px;
+    height: 50px; }
+  .room__specific-item-icon_03:before {
+    width: 60px;
+    height: 65px; }
+  .room__specific {
+    margin-bottom: 15px; }
+  .room p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px; }
+  .room h2 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .room ul li {
+    font-size: 14px;
+    line-height: 18px; }
+  .specific-item {
+    font-size: 16px;
+    line-height: 1; }
+  .restaurant-specific {
+    padding: 30px 0; }
+  .restaurant__specific-item-icon_01:before {
+    width: 65px;
+    height: 40px; }
+  .restaurant__specific-item-icon_02:before {
+    width: 60px;
+    height: 40px; }
+  .restaurant__specific-item-icon_03:before {
+    width: 40px;
+    height: 40px; }
+  .restaurant-specific__row {
+    margin-bottom: 15px; }
+  .restaurant__img-big {
+    height: auto; }
+  .restaurant__img {
+    height: auto; } }
+
+@media (max-width: 700px) {
+  .mob-menu {
+    width: 100%;
+    right: -100%;
+    -webkit-transition: right 0.8s;
+    -o-transition: right 0.8s;
+    transition: right 0.8s; } }
+
+@media (max-width: 612px) {
+  .contacts-bg__title {
+    font-size: 20px !important; }
+  .contacts-bg__tel {
+    font-size: 14px; }
+  .specific-item:before {
+    margin-right: 8px; } }
+
+@media (max-width: 540px) {
+  .offers__card-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%;
+    margin-bottom: 12px !important; }
+  .offers__card-img:nth-child(4) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%; } }
+
+@media (max-width: 515px) {
+  .footer__menu {
+    margin-bottom: 10px; }
+  .footer__line {
+    max-width: 200px; }
+  .soc-block-icon {
+    width: 110px; }
+  .text-block__logo {
+    display: none; }
+  .greetings {
+    padding-bottom: 15px; }
+  .greetings__icon-block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .advant__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%;
+    margin-bottom: 15px; }
+  .advant__item:before {
+    width: 40px;
+    height: 30px; }
+  .advant-icon-01:before {
+    width: 55px; }
+  .stock {
+    padding: 15px 0 20px 0; }
+  .card-img {
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px; }
+  .index-map__map {
+    height: 250px; }
+  .card-action__item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+  .card-action__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 10px; }
+  .card-action__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .card-action__paragrafy {
+    margin-bottom: 10px; }
+  .services__card-img {
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px; }
+  .services-card-sec {
+    padding-bottom: 20px; }
+  .contacts__row {
+    max-width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .contacts__col {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px; }
+  .contacts__col:last-child {
+    margin-bottom: 0; }
+  .specific-item {
+    font-size: 12px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .specific-item:before {
+    margin-bottom: 3px;
+    margin-right: 0; }
+  .room__specific-item-icon_01:before {
+    width: 45px;
+    height: 45px; }
+  .room__specific-item-icon_02:before {
+    width: 60px;
+    height: 40px; }
+  .room__specific-item-icon_03:before {
+    width: 40px;
+    height: 40px; }
+  .room__specific {
+    margin-bottom: 5px; }
+  .restaurant__specific-item-icon_01:before {
+    width: 50px;
+    height: 30px; }
+  .restaurant__specific-item-icon_02:before {
+    width: 50px;
+    height: 30px; }
+  .restaurant__specific-item-icon_03:before {
+    width: 30px;
+    height: 30px; }
+  .restaurant-img__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .restaurant__img-big {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 10px; } }
+
+@media (max-width: 480px) {
+  .stock__card-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .card-img {
+    height: 230px; }
+  .offers__card-img {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 1 100% !important;
+    flex: 0 1 100% !important; }
+  .contacts-bg__row {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .contacts-bg__col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-bottom: 15px; }
+  .contacts-bg__col:last-child {
+    margin-bottom: 0; }
+  .contacts-bg__title {
+    font-size: 24px !important; }
+  .services__card-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    height: 230px; }
+  .room p {
+    text-align: justify; } }
+
+@media (max-width: 414px) {
+  .logo-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    height: 30px; }
+  .header__btn {
+    margin-right: 15px; }
+  .header__lang-switch {
+    margin-right: 15px; }
+  .header__btn {
+    min-width: 100px;
+    font-size: 12px;
+    min-height: 20px;
+    padding: 0; }
+  .footer__line {
+    max-width: 160px; }
+  .page {
+    padding: 40px 0 25px 0; }
+  .card-action__btn {
+    min-height: 35px;
+    width: 100%; }
+  .contacts__btn {
+    padding: 3px;
+    min-width: 100%;
+    min-height: 35px;
+    width: 100%; }
+  .restaurant__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    height: 180px; }
+  .mob-menu {
+    margin-top: 35px; } }
+
+@media (max-width: 320px) {
+  .title:before {
+    width: 260px; } }
