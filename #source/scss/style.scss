@@ -564,10 +564,13 @@ h5 {
 }
 //====================================================================================================================================================
 // Наши услуги
+.services-card-sec {
+	padding-bottom: 47px;
+}
+
 .services__row {
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-bottom: 47px;
 }
 
 .services__card-img {
