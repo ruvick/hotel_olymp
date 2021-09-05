@@ -27,12 +27,13 @@
 		line-height: 27px;
 		color: #161615;
 		&:before {
-			content:'';
+			content:'✦';
 			float: left;
-			width: 15px;
-			height: 15px;
-			border-radius: 50%;
-			background: #A46A37;
+			// width: 15px;
+			// height: 15px;
+			// border-radius: 50%;
+			// background: #A46A37; 
+			color: #A46A37;
 			margin-right: 16px; 
 		}
 	}
