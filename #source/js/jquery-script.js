@@ -79,7 +79,15 @@ $('.slider-room').slick({
 	slidesToShow: 1,
 	autoplay: true,
 	autoplaySpeed: 1800,
-	adaptiveHeight: true
+	adaptiveHeight: true,
+			responsive: [
+		{
+			breakpoint: 770,
+			settings: {
+				dots: false,
+			}
+		}
+	]
 });
 
 
