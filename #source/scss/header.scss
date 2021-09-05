@@ -167,14 +167,15 @@
 .mob-menu {
   position: fixed;
   z-index: 50000;
-  background: rgba(0, 0, 0, 0.8);
+  background: #fff;
   top: 0;
   width: 50%;
   height: 100%;
-  padding: 35px 10px 0px 20px;
-  margin-top: 68px;
+  padding: 30px 10px 0px 20px;
+  margin-top: 45px;
   overflow: auto;
   right: -100%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 15%);
   -webkit-transition: right 0.8s;
   -o-transition: right 0.8s;
   transition: right 0.8s; }
@@ -184,9 +185,9 @@
 
 .mob-menu li a {
 	display: inline-block;
-	font-size: 23px;
-	color: #fff;
-	padding-bottom: 13px;
+	font-size: 16px;
+	color: #161615;
+	padding-bottom: 5px;
 }
 
 

@@ -1151,14 +1151,16 @@ body.ie .ibg img {
 .mob-menu {
   position: fixed;
   z-index: 50000;
-  background: rgba(0, 0, 0, 0.8);
+  background: #fff;
   top: 0;
   width: 50%;
   height: 100%;
-  padding: 35px 10px 0px 20px;
-  margin-top: 68px;
+  padding: 30px 10px 0px 20px;
+  margin-top: 45px;
   overflow: auto;
   right: -100%;
+  -webkit-box-shadow: 0px 3px 5px 0px black;
+  box-shadow: 0px 3px 5px 0px black;
   -webkit-transition: right 0.8s;
   -o-transition: right 0.8s;
   transition: right 0.8s; }
@@ -1168,9 +1170,9 @@ body.ie .ibg img {
 
 .mob-menu li a {
   display: inline-block;
-  font-size: 23px;
-  color: #fff;
-  padding-bottom: 13px; }
+  font-size: 16px;
+  color: #161615;
+  padding-bottom: 5px; }
 
 .footer {
   background: #1E1E1F; }
@@ -2573,7 +2575,9 @@ body.ie .ibg img {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 100%;
     flex: 0 1 100%;
-    height: 180px; } }
+    height: 180px; }
+  .mob-menu {
+    margin-top: 35px; } }
 
 @media (max-width: 320px) {
   .title:before {
