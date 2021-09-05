@@ -40,10 +40,14 @@
   margin-right: 5px;
   color: #161615;}
 
+.card-action-sec {
+	padding-bottom: 111px;
+}
+
 .card-action {
 	// .card-action__body
 	&__body {
-		margin-bottom: 111px;
+		// margin-bottom: 111px;
 	}
 	// .card-action__item
 	&__item {
