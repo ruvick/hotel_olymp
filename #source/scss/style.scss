@@ -217,12 +217,29 @@ h5 {
 
 .slider-about__item {
 	position: relative;
-	height: 1000px;
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url('../img/about-bg.jpg');
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	// background-position: 0 0;
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-image: url('../img/about-bg.jpg');
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
+
+// .slider-about__item {
+// 	background-image: url('../img/about-bg.jpg');
+// }
+// .slider-about__item:nth-child(2) {
+// 	background-image: url('../img/about-bg-2.jpg');
+// }
+// .slider-about__item:nth-child(3) {
+// 	background-image: url('../img/about-bg-3.jpg');
+// }
 
 // Слайдер
 .slider-about .slick-dots {
@@ -459,6 +476,7 @@ h5 {
 }
 
 .offers__card-img:nth-child(1) {
+	background-position: 0 50%;
 	background-image: url('../img/offers/01.jpg');
 }
 .offers__card-img:nth-child(2) {
@@ -471,7 +489,8 @@ h5 {
 	background-image: url('../img/offers/04.jpg');
 }
 .offers__card-img:nth-child(5) {
-	background-image: url('../img/offers/05.jpg');
+	background-position: 50% 0;
+	background-image: url('../img/offers/05.png');
 }
 //====================================================================================================================================================
 
